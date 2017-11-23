@@ -12,7 +12,7 @@ public class Assembler {
 		
 		return t.translateProgram(
 				t.replaceLabels(
-						Filter.filter(
-								Utils.getProgram(programPath))));
+					Filter.filter(
+						Utils.getProgram(programPath))));
 	}
 }
